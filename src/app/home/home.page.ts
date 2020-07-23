@@ -1,6 +1,4 @@
 import {Component} from '@angular/core';
-
-import {DetailsPage} from "../details/details.page";
 import {Router} from '@angular/router';
 
 @Component({
