@@ -116,7 +116,7 @@ export class HomePage {
 
     showDetail(id) {
         const item = this.list.find(item => item.id === id);
-
+        this.router.navigate(['/details'], {state: item})
     }
 
 }
